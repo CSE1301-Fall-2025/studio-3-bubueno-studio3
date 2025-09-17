@@ -20,11 +20,11 @@ public class Sieve {
                 for (int j = 0; j < sieve.length; j++) {
                     double sieveDub = sieve[j];
 
-                        if (sieve[j] > value) {
-                            if (sieve[j]/value == sieveDub/valueDub) {
-                                sieve[j] = 0;
-                            }
+                    if (sieve[j] > value) {
+                        if (sieve[j]/value == sieveDub/valueDub) {
+                            sieve[j] = 0;
                         }
+                    }
                 }
             }
         }
